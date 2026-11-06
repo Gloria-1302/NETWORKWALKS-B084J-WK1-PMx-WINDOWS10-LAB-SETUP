@@ -165,7 +165,7 @@ ipconfig
 
 The screenshot shows the Command Prompt together with the IPv4 settings window. The `ipconfig` output displays the IPv4 address, subnet mask and default gateway.
 
-![Windows IP configuration](images/01-windows-ip-configuration.png)
+![Windows IP configuration](01-windows-ip-configuration.png)
 *Figure 3 – Windows Command Prompt and the Network Connections IPv4 configuration window showing the static settings.*
 
 ### Step 11 – Review the Windows Firewall ICMPv4 Echo Request rule 📸
@@ -174,7 +174,7 @@ I opened **Windows Defender Firewall with Advanced Security** and looked at the 
 
 This rule allows incoming IPv4 ICMP Echo Requests under that profile. That is useful for ping testing, because ping uses Echo Requests and Echo Replies.
 
-![Windows Firewall ICMP settings](images/04-windows-firewall-icmp-settings.png)
+![Windows Firewall ICMP settings](04-windows-firewall-icmp-settings.png)
 *Figure 4 – Windows Defender Firewall with Advanced Security showing the enabled ICMPv4 Echo Request inbound rule for the Private profile.*
 
 > 🔥 This does **not** mean the firewall was turned off. Only this specific rule is shown as enabled, and the rest of the firewall protections were not changed in this project. Disabling the firewall completely is not recommended.
@@ -188,7 +188,7 @@ ping google.com
 ping 8.8.8.8
 ```
 
-![Windows network connectivity test](images/05-windows-network-connectivity-test.png)
+![Windows network connectivity test](05-windows-network-connectivity-test.png)
 *Figure 5 – Windows 10 Command Prompt running ping tests to Kali Linux, networkwalks.com, google.com and 8.8.8.8.*
 
 ---
