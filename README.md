@@ -125,7 +125,7 @@ flowchart TD
 
 I used Microsoft's official Windows 10 download page. It offers English International 32-bit and 64-bit downloads.
 
-![Windows 10 ISO download page](images/02-windows-10-iso-download.png)
+![Windows 10 ISO download page](02-windows-10-iso-download.png)
 *Figure 1 – Microsoft's Windows 10 English International download page showing 32-bit and 64-bit options. This screenshot shows the download page only. It does not prove that a particular ISO file was downloaded or installed.*
 
 ### Step 2 – Create or prepare the Windows 10 VM in VMware Workstation 17 Player 📘
@@ -136,7 +136,7 @@ General instruction: in VMware Workstation 17 Player, create a new virtual machi
 
 After setup, the Windows 10 VM starts in VMware and reaches the user welcome screen.
 
-![Windows 10 home screen](images/03-windows-10-homescreen.png)
+![Windows 10 home screen](03-windows-10-homescreen.png)
 *Figure 2 – The Windows 10 virtual machine running in VMware and showing the user welcome screen.*
 
 ### Steps 4–5 – Open Network Connections and the Ethernet IPv4 properties 📸
